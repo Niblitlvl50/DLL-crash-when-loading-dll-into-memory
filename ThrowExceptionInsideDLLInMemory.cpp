@@ -74,7 +74,7 @@ int _tmain(int argc, _TCHAR* argv[])
    const bool dynResult = LoadLibraryDynamicaly(11);
    
    // This function will crash if an exception is thrown inside the dll.
-   // Change the input to anything else than 7 and it will crash.
+   // Change the input to anything other than 7 and it will crash.
    const bool memResult = LoadLibraryInMemory(7);
 
 	return 0;
